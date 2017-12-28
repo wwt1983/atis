@@ -51,7 +51,7 @@ export default class Trip extends Component {
                     <div className='route-page__body-feed__card' >
                         <div className='card-main'>
                             <div className='card-main__inner trip-card'>
-                                <div className='trip-card__body'>
+                                <div className='trip-card__body' style = {{marginLeft : '100'}}>
                                  {data[0]} <br/> {data[1]}
                                 </div>
 
@@ -63,8 +63,8 @@ export default class Trip extends Component {
                                     <div className= { 'trip-card__action'}>
                                         <RaisedButton
                                             label='Заказать'
-                                            style={{width: '100%'}}
-                                            backgroundColor= {'#f3f6f7'}                
+                                            style={{width: '100%', backgroundColor : 'rgb(0, 161, 194)'}}
+                                              
                                             onClick={this.getSwal}
                                         />
                                     </div>

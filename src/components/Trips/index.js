@@ -8,16 +8,6 @@ const moment = require('moment')
 moment.locale('ru')
 
 export default class Trips extends Component {
-
-    componentWillUpdate(nextProps) {
-        if((nextProps.data.routes && nextProps.data.routes.routes && nextProps.data.routes.routes.length > 0) && this.props.data.routes !== nextProps.data.routes) {
-            const { onTitleChanged, data } = nextProps
-            onTitleChanged('Билеты на автобус '+data.routes.routes[0].departure.cityName+' - '+data.routes.routes[0].arrival.cityName)
-        }
-    }
-    
-
-
     render() {
         let data = [
             ['Консультация', 'Первичная консультация', 'бесплатно'],

@@ -42,7 +42,7 @@ import Top from '../components/Common/Top'
 import Sidebar from '../components/Common/Sidebar'
 import Cabinet from '../components/Cabinet'
 import Trips from '../components/Trips'
-//import Vno from '../components/Trips/Vno'
+import Vno from '../components/Trips/Vno'
 
 import './App.css'
 
@@ -86,6 +86,7 @@ class App extends Component {
                             curTripsUrl = {this.state.curTripsUrl}
                             routePath={this.props.route.path}
                         />
+                            <Vno />
                             
                              <Trips
                                  cacheActions={this.props.cacheActions}

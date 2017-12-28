@@ -8,7 +8,9 @@ const style = {
     textAlign: 'center',
     display: 'inline-block',
     fontSize : '14px',
-    lineHeight: '28px'
+    lineHeight: '28px',
+    color: '#6a6a6a', 
+    wordWrap: 'break-word'
   };
 export default class Tickets extends Component {
 
