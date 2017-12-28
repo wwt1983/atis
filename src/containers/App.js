@@ -61,7 +61,6 @@ class App extends Component {
     }
 
 
-
     render() {
         const { layout, layoutActions } = this.props
         let cabinetDrawer = this.props.route.path === '/cabinet/:area'
@@ -77,6 +76,7 @@ class App extends Component {
                             status={layout.drawer}
                             errors={layout.errors}
                             isCabinet={cabinetDrawer}
+                            layoutActions={this.props.layoutActions}
                         />
                         <Cabinet
                             status={cabinetDrawer}
@@ -87,7 +87,7 @@ class App extends Component {
                             routePath={this.props.route.path}
                         />
                             <Vno />
-                            
+
                              <Trips
                                  cacheActions={this.props.cacheActions}
                                  onTitleChanged={(title) => this.setState({...this.state, appTitle: title})}
