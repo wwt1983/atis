@@ -42,7 +42,7 @@ export default class Top extends Component {
         const { toggleLayout } = this.props
         toggleLayout('drawer')
     }
-    
+
     getSwal = () => {
         swal.setDefaults({
             input: 'text',
@@ -53,7 +53,7 @@ export default class Top extends Component {
             cancelButtonColor: '#d33',
             progressSteps: ['1', '2', '3']
           })
-          
+
           var steps = [
             {
               title: 'E-mail',
@@ -62,10 +62,10 @@ export default class Top extends Component {
             'Телефон',
             'Комментарий '
           ]
-          
+
           swal.queue(steps).then((result) => {
             swal.resetDefaults()
-          
+
             if (result.value) {
               swal({
                 title: 'Спасибо, Ваша заявка принята.',
@@ -104,7 +104,7 @@ export default class Top extends Component {
                                       <span style = {{fontSize : 14}}> 8 (351) 248-81-50, 8-900-092-8965, 8-904-302-2395, Россия, г. Челябинск, ул. Курчатова 19к2, оф 233, 454092</span>
                                       <RaisedButton
                                       label = 'Оставить заявку'
-                                          backgroundColor="yellow"
+                                          backgroundColor='yellow'
                                           onClick = {this.getSwal}
                                           style={{margin: 5, width : 300, fontSize : '10', color : 'white'}}
           />
