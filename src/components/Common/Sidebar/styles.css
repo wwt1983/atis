@@ -1,0 +1,130 @@
+.drawer-collapsed>div {
+    transform: translate(-198px, 0px) !important;
+}
+
+.side-auth-wrap {
+    position: relative;
+}
+.sidebarActionButton{
+    position: relative;
+}
+.sidebarHint {
+    position: absolute;
+    color: white;
+    z-index: 999999;
+    left: 257px;
+    bottom: 9px;
+    width: auto;
+    height: 30px;
+    background-color: rgb(135, 166, 174);
+    font-size: 15px;
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 1s;
+    white-space: nowrap;
+    padding: 0px 10px;
+    visibility: hidden;
+}
+.side-auth-wrap__cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 2;
+    text-align: center;
+    transition: all 0.3s linear;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.side-auth-wrap__cover_active {
+    transition: all 0.3s linear;
+    visibility: visible;
+    opacity: 1;
+}
+.loading-client>div>div>div{
+    width: 90%;
+    height: 16px;
+    border-radius: 3px;
+    background-image:
+    repeating-linear-gradient(
+      -45deg,
+      #f1f0f0,
+      #f1f0f0 11px,
+      #eee 10px,
+      #eee 20px /* determines size */
+    );
+    background-size: 28px 28px;
+    animation: move .5s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 28px 0;
+  }
+}
+.side-auth-wrap__cover img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.side-auth {
+    padding: 2px 10px 14px 20px;
+    box-sizing: border-box;
+    background-color: rgba(250, 250, 250, 0.5);
+    transition: all 0.2s linear;
+    overflow: hidden;
+    height: auto;
+}
+
+.side-auth_progress {
+    filter: blur(2px);
+}
+
+.side-auth_collapsed {
+    height: 0px;
+    padding: 0;
+    border: none;
+    transition: all 0.6s linear;
+}
+
+.side-auth__actions {
+    padding-top: 10px;
+    display: flex;
+    width: 100%;
+}
+
+.side-auth__actions>div {
+    width: 45%;
+}
+
+.side-auth__actions>div:last-child {
+    width: 55%;
+}
+
+.side-auth__actions .linked-line {
+    font-size: 11px;
+    display: block;
+    margin-top: 3px;
+}
+
+.side-auth input {
+    margin-top: 0 !important;
+}
+
+.side-auth input:-webkit-autofill {
+    -webkit-box-shadow: inset 0 0 0px 9999px white;
+}
+
+.side-auth>div>div:first-child {
+    font-size: 14px;
+}

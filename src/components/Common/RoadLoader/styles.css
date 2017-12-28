@@ -1,0 +1,17 @@
+.road-loader {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.road-loader__road {
+    position: absolute;
+    top: -20%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.road-loader__bus {
+    width: 40%;
+}

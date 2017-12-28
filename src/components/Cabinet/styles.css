@@ -1,0 +1,240 @@
+.cabinet-wrap {
+    margin-top: 64px;
+    margin-left: 59px;
+    padding-top: 13px;
+    padding-left: 16px;
+}
+.status-text{
+    color: black;
+    width: 40vw;
+    padding: 0px 20px;
+}
+.ticket-wrap{
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    margin-right: 20px;
+    border: 1px  solid rgba(0, 0, 0, 0.16);
+    border-radius: 3px;
+    padding: 15px;
+    margin-bottom: 15px
+}
+.ticket-left-column{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.ticket-left-column p{
+    margin: 0px 0px 10px 0px
+}
+.ticket-right-column{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.ticket-right-column p{
+    margin: 0px 0px 10px 0px
+}
+.ticket-status{
+    border:0px !important;
+    box-shadow: none !important;
+    background-color: red !important;
+}
+.ticket-status button{
+    padding:0px !important;
+    font-size: 10px !important;
+    height: 25px !important;
+    line-height: 28px !important;
+    background-color: #f0ad4e !important;
+}
+.ticket-status{
+    padding:0px !important;
+    font-size: 10px !important;
+    height: 25px !important;
+    line-height: 28px !important;
+}
+.ticket-status button>div>div{
+
+    height: 25px !important;
+
+}
+.ticket-status span{
+    padding:0px !important;
+    color:white !important;
+    font-size: 10px !important;
+    text-transform: none !important;
+}
+
+.default-ticket-state button{
+    background-color: #777 !important;
+}
+.warning-ticket-state button{
+    background-color: #f0ad4e !important;
+}
+.info-ticket-state button{
+    background-color: #5bc0de !important;
+}
+.success-ticket-state button{
+    background-color: #5cb85c !important;
+}
+.success-ticket-state button{
+    background-color: #5cb85c !important;
+}
+.primary-ticket-state button{
+    background-color: #337ab7 !important;
+}
+
+.passenger-wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-right: 20px;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.passanger-item {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+}
+.passanger-item p{
+    font-size: 16px;
+    text-align: center;
+}
+.passanger-item-content {
+    text-align: center;
+}
+.cabinet.passenger-form{
+    width: 100%;
+    margin: 0px auto 0;
+    padding: 0px;
+    border:0px;
+    visibility: visible;
+    opacity: 1;
+    background-color: white;
+    position: initial;
+}
+.account-settings{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.account-input-wrap{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-right: 20px;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%
+}
+.account-password-wrap{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%
+}
+.account-input-label{
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 12px;
+    margin-top: 14px;
+}
+
+.passanger-add {
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+.social-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+.vk-wrap {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.non-auth{
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vk-wrap img{
+    width: 100%;
+    border-radius: 50%;
+    max-width: 150px;
+}
+.vk-wrap span{
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(34, 154, 200, 0.7);
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius: 15px;
+    width: 70%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 3px 0px;
+    font-size: 14px;
+    color: white;
+    max-width: 150px;
+}
+.vk-wrap button{
+
+}
+.side-auth-wrap__cover.cabinet_cover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.closeDrawer {
+    position: absolute;
+    top: 85px;
+    right: -225px;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s
+}
+.closeDrawer span{
+    background-color: transparent;
+    border: 3px solid;
+    border-radius: 25px;
+    text-transform: uppercase;
+    padding: 7px 20px;
+    font-weight: 600;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.closeDrawer.hideDrawer{
+    opacity: 0;
+    visibility: hidden;
+}
+.closeDrawer span:hover{
+    background-color: rgba(255,255,255,0.9);
+    transition: 0.5s;
+}

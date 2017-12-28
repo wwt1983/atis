@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="50px" viewBox="0 0 44 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>seat_white_big</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4.95238095,4 L39.047619,4 C41.7827435,4 44,6.21725648 44,8.95238095 L44,41.047619 C44,43.7827435 41.7827435,46 39.047619,46 L4.95238095,46 C2.21725648,46 3.09069553e-15,43.7827435 -8.8817842e-16,41.047619 L0,8.95238095 C-3.34956143e-16,6.21725648 2.21725648,4 4.95238095,4 Z" id="path-1"></path>
+        <path d="M18.4761905,0 L41.5238095,0 C42.8913718,-2.68049564e-15 44,1.10862824 44,2.47619048 L44,10 L18.4761905,10 C17.1086282,10 16,8.89137176 16,7.52380952 L16,2.47619048 C16,1.10862824 17.1086282,2.51217108e-16 18.4761905,0 Z" id="path-2"></path>
+        <path d="M18.4761905,40 L44,40 L44,47.5238095 C44,48.8913718 42.8913718,50 41.5238095,50 L18.4761905,50 C17.1086282,50 16,48.8913718 16,47.5238095 L16,42.4761905 C16,41.1086282 17.1086282,40 18.4761905,40 Z" id="path-3"></path>
+        <polygon id="path-4" points="34 8 44 8 44 42 34 42"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="seat_white_big">
+            <g id="Rectangle-5">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <path stroke="#8CA5AF" stroke-width="2" d="M4.95238095,5 C2.76954123,5 1,6.76954123 1,8.95238095 L1,41.047619 C1,43.2304588 2.76954123,45 4.95238095,45 L39.047619,45 C41.2304588,45 43,43.2304588 43,41.047619 L43,8.95238095 C43,6.76954123 41.2304588,5 39.047619,5 L4.95238095,5 Z"></path>
+            </g>
+            <g id="Rectangle-7">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <path stroke="#8CA5AF" stroke-width="2" d="M43,9 L43,2.47619048 C43,1.66091299 42.339087,1 41.5238095,1 L18.4761905,1 C17.660913,1 17,1.66091299 17,2.47619048 L17,7.52380952 C17,8.33908701 17.660913,9 18.4761905,9 L43,9 Z"></path>
+            </g>
+            <g id="Rectangle-7">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <path stroke="#8CA5AF" stroke-width="2" d="M43,41 L18.4761905,41 C17.660913,41 17,41.660913 17,42.4761905 L17,47.5238095 C17,48.339087 17.660913,49 18.4761905,49 L41.5238095,49 C42.339087,49 43,48.339087 43,47.5238095 L43,41 Z"></path>
+            </g>
+            <g id="Rectangle-8">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                <path stroke="#8CA5AF" stroke-width="2" d="M35,9 L35,41 L43,41 L43,9 L35,9 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

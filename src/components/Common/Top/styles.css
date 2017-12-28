@@ -1,0 +1,17 @@
+.top__right-block {
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    height: 64px;
+}
+
+.top__right-block img {
+    height: 36px;
+    margin-left: 20px;
+}
+
+.top__right-block span {
+    color: #fff;
+    line-height: 36px;
+    font-size: 22px;
+}
